@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+
+<head>	
+  <meta name="robots" content="noindex">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Regardez le complet</title>
+  <link rel="stylesheet" href="css/s.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');">
+  
+   <!-- SPEED VTURB -->
+  <link rel="preload" href="https://scripts.converteai.net/53619897-3f1a-4915-8217-63e9e25b5466/players/64a2d7c5f6efcf00093d1b87/player.js" as="script">
+<link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script">
+<link rel="preload" href="https://images.converteai.net/53619897-3f1a-4915-8217-63e9e25b5466/players/64a2d7c5f6efcf00093d1b87/thumbnail.jpg" as="image">
+<link rel="preload" href="https://cdn.converteai.net/53619897-3f1a-4915-8217-63e9e25b5466/64a2d79401f8d3000957c62c/main.m3u8" as="fetch">
+<link rel="dns-prefetch" href="https://cdn.converteai.net">
+<link rel="dns-prefetch" href="https://scripts.converteai.net">
+<link rel="dns-prefetch" href="https://images.converteai.net">
+<link rel="dns-prefetch" href="https://api.vturb.com.br">
+	
+  <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '000000000000000');
+fbq('track', 'PageView');
+</script>
+	
+<script>
+var request = new XMLHttpRequest();
+request.open('GET', 'https://wtfismyip.com/json', true);
+
+request.onload = function () {
+    if (this.status >= 200 && this.status < 400) {
+        var data = JSON.parse(this.response);
+        let output = data.YourFuckingLocation.replace(/\,.+/g, "$'");
+        document.getElementById("cidade").innerHTML = "de " + output;
+    } else { }
+};
+request.onerror = function () { };
+request.send();
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=000000000000000&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<script src="js/script.js"></script>
+<script src="https://kit.fontawesome.com/60c5f8722a.js" crossorigin="anonymous"></script>
+<script src="https://www.youtube.com/player_api"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
+</head>
+
+<body>
+	<div style="font-size: 16px; font-weight: 600;color: #ffffff; text-align: center; background-color: #D60000;padding: 12px;height: 30px;"><span id="viewers"></span> personnes <span id="cidade" style="font-weight: bold"></span> sont en train de regarder</div>
+ 
+<section class="hero">
+    <div class="center px-lg-15"><br>
+      <img src="assets/img/notic-banner.png" width="100%">
+	</div>
+	
+	<div class="video-container">
+            
+                <div id="vid_64a2d7c5f6efcf00093d1b87" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_64a2d7c5f6efcf00093d1b87" src="https://images.converteai.net/53619897-3f1a-4915-8217-63e9e25b5466/players/64a2d7c5f6efcf00093d1b87/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_64a2d7c5f6efcf00093d1b87" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div><script type="text/javascript" id="scr_64a2d7c5f6efcf00093d1b87">var s=document.createElement("script");s.src="https://scripts.converteai.net/53619897-3f1a-4915-8217-63e9e25b5466/players/64a2d7c5f6efcf00093d1b87/player.js",s.async=!0,document.head.appendChild(s);</script>
+            
+          </div>
+	
+    <div class="mt-lg-5 mt-sm-3 mx-auto center max-w-lg-60">
+		<img width="80%" src="assets/img/notic-redes.png">
+	<div class="closen d-none vagas">
+      <a href="#" class="btn-vaga max-w-lg-50 mx-auto">
+        Seulement <span id="qtvagas">30</span> PLACES DISPONIBLES
+      </a><br>
+    </div>
+    <center>
+	 <button class="closen d-none bot-cadastro max-w-lg-50 mx-auto" onclick="formVisibility()"><i class="fa-solid fa-check"></i> REGISTRARSE AHORA!</button>
+    </center>
+		
+		
+  </div>
+   	
+</section>
+<p> <strong><center>Regardez jusqu'à la fin pour accéder.</center></strong></p>
+
+</body>
+
+<script>
+    window.onload = function () {
+        var links = document.getElementsByTagName("a");
+        for (var i = 0, n = links.length; i < n; i++) {
+            var href = links[i].href.trim() +
+                    (links[i].href.indexOf("?") > 0 ? '&' : '?') +
+                    document.location.search.replace('?', '').toString();
+            links[i].href = href;
+        }
+    }
+
+     setTimeout(
+      () => {
+        var links1 = document.getElementsByClassName("closen");
+		numeroVagas();
+        for (var i = 0, n = links1.length; i < n; i++) {
+            links1[i].classList.remove("d-none");
+        }
+      
+        },1281000); //  (em milissegundos)
+
+
+</script>
+<br>
+<footer class="center px-lg-20 py-lg-1 py-sm-1 px-sm-2 black">
+	<p class="footer-texto"><strong><br /><br /><br />Tous droits réservés.</strong><br /><br /><br /></p>
+    
+</footer>
+	
+		<div class="modal-container d-none-modal" id="form-modal">
+        <div class="modal-overlay modal-container" onclick="formVisibility()"></div>
+        <div class="modal">
+          <div class="modal-closeX" onclick="formVisibility()">x</div>
+          <div class="modal-content form-modal-content">
+			  <h1>ACCÉDEZ MAINTENANT</h1>
+              <i>Remplissez vos coordonnées pour accéder au contenu du Tonique Africain</i>
+            <form onsubmit="return goToCheckout(this);">
+              <input type="text" id="input-nome" name="nome" placeholder="Votre Nom Complet." required="required"><br>
+              <input type="email" id="input-email" name="email" placeholder="E-mail." required="required"><br>
+              <input type="text" id="input-telefone" name="telefone" placeholder="Numéro de téléphone" required="required"><br>
+              <button class="bot-cadastro" type="submit">Continuer</button>
+            </form>
+          </div>
+        </div>
+    </div>
+	
+<script>
+        // Formulario
+        const formVisibility = () => {
+            document.getElementById("form-modal").classList.toggle("d-none-modal")
+        }
+
+        // Coloque aqui a url(detro das aspas)
+        const urlCheckout = "https://pay.hotmart.com/V64855270A?off=f07wv161&checkoutMode=10"
+
+        //Redirecionamento para o checkout
+        const urlParams = new URLSearchParams(window.location.search);
+        const parametroHotmart = urlParams.get('src');
+
+        const goToCheckout = (form) => {
+          const nome = document.getElementById("input-nome").value
+          const email = document.getElementById("input-email").value
+          const telefone = document.getElementById("input-telefone").value
+          window.location.href = `${urlCheckout}&name=${nome}&email=${email}&phonenumber=${telefone}&src=${parametroHotmart}`
+          return false;
+        }
+    </script>
+<script>
+	
+	let player;
+        function onYouTubePlayerAPIReady() {
+          player = new YT.Player("ytplayer", {
+            height: "360",
+            width: "640",
+            videoId: "ZRVB2gJCdLk",
+            playerVars: {
+              controls: 0,
+              fs: 0,
+              autoplay: 0,
+              modestbranding: 1,
+              showinfo: 0,
+              rel: 0,
+              hd: 1,
+              iv_load_policy: 3,
+              playsinline: 1,
+              enablejsapi: 1,
+            },
+            events: {
+              'onReady': onPlayerReady
+            }
+          });
+        }
+
+        function onPlayerReady(event) {
+          event.target.mute();
+          event.target.playVideo();
+        }
+
+        const playMask = document.getElementById("play-mask");
+        const maskGif = document.getElementById("mask-gif");
+        playMask.addEventListener("click", function () {
+
+            if(maskGif.style.opacity === '0'){
+                if (player.getPlayerState() == YT.PlayerState.PLAYING) {
+                    player.pauseVideo();
+                } else {
+                    player.playVideo();
+                }
+            }else {
+              maskGif.style.opacity = 0
+              player.pauseVideo();
+              player.unMute();
+              player.seekTo(0);
+              player.playVideo();
+            }
+ });
+	
+    document.addEventListener('contextmenu', event => event.preventDefault());
+</script>
+	
+</html> 
